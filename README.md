@@ -11,4 +11,5 @@ These challenges can confuse the self-supervision loss, leading to ambiguous sup
 <img width="800" src="https://github.com/cocowy1/DualNet/blob/main/figs/color_constancy_v2.png"/></div>
 
 # Overview
+We present a self-supervised pipeline named DualNet, which can be divided into two key steps: (1) robust self-supervised teacher learning, which incorporates feature-metric and data augmentation consistency loss, and (2) pseudo-label supervised student training.
 <img width="800" src="https://github.com/cocowy1/DualNet/blob/main/figs/overview_v1.png"/></div>
