@@ -8,7 +8,7 @@ our DualNet achieves **1st** performance among all self-supervised methods on KI
 # The weak Photo-metric Consistency Assumption
 Previous self-supervised stereo matching methods rely on the photo-metric consistency assumption, which assumes that the appearance of a point point photo-metric consistency assumption, which assumes that the appearance of a point in 3D space is color-invariant across different views. The hypothesis of photo-metric consistency is to maximize the similarity between the left image and the reconstructed left image after being warped from the right perspective. However, this foundational premise can be compromised by various real-world factors, such as low texture, occlusion, reflections, and illumination changes, as illustrated in below.
 These challenges can confuse the self-supervision loss, leading to ambiguous supervision and ultimately resulting in inferior performance compared to supervised methods.
-<img width="800" src="https://github.com/cocowy1/DualNet/blob/main/figs/teaser_1.png"/></div>
+<img width="800" src="https://github.com/cocowy1/DualNet/blob/main/figs/color_constancy_v2.png"/></div>
 
 # Overview
 <img width="800" src="https://github.com/cocowy1/DualNet/blob/main/figs/overview_v1.png"/></div>
